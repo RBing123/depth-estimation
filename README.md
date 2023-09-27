@@ -16,12 +16,12 @@
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/c6d8c446-1db0-41ac-a23d-cec24c1e07ed)
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/adba2f4f-18e7-403d-b408-15b73321b4c8)
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/82b73d0c-ad83-4c67-8d84-1eab0f57f7b1)
-     單張RGB影像        地面真值      模型估計的深度圖
+上圖從左到右分別為單張RGB影像、地面真值、模型估計的深度圖
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/0ffe3af7-7ed2-422b-8753-f898ee96ce69)
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/7d9f237a-4b7e-40ac-8fc5-3aeeca1c1e31)
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/153e88a2-7627-45ad-a8d8-7b69f18e5467)
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/c97f0529-13b2-410f-9a45-041f7f0ac3e9)
-     單張RGB影像        地面真值      模型估計的表面法向量圖
+上圖從左到右分別為單張RGB影像、地面真值、模型估計的表面法向量圖
 
 
 
