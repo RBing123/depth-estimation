@@ -19,7 +19,7 @@
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/82b73d0c-ad83-4c67-8d84-1eab0f57f7b1)
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/ea6fb006-8215-4a72-93a2-668d88037c30)
 
-遠--------------------------------------------------->近
+遠--------------------------------------------------------------------------->近
 
 上圖從左到右分別為單張RGB影像、地面真值、模型估計的深度圖
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/0ffe3af7-7ed2-422b-8753-f898ee96ce69)
