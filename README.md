@@ -25,7 +25,7 @@
 上圖從左到右分別為單張RGB影像、地面真值、模型估計的表面法向量圖
 
 # 實際成果
-<source src="https://drive.google.com/file/d/1BIzOxXL_kvY8E0uERxxWKg-qQUWaIa8_/view?usp=drive_link" type="video/mp4">
+https://drive.google.com/file/d/1BIzOxXL_kvY8E0uERxxWKg-qQUWaIa8_/view?usp=drive_link
 
 
 
