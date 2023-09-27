@@ -17,7 +17,8 @@
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/c6d8c446-1db0-41ac-a23d-cec24c1e07ed)
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/adba2f4f-18e7-403d-b408-15b73321b4c8)
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/82b73d0c-ad83-4c67-8d84-1eab0f57f7b1)
-![image](https://github.com/RBing123/depth-estimation/assets/107789113/ea6fb006-8215-4a72-93a2-668d88037c30)
+![image](https://github.com/RBing123/depth-estimation/assets/107789113/9eab39a0-e661-494e-bbde-757fe578c11f)
+
 
 遠--------------------------------------------------------------------------->近
 
@@ -26,6 +27,8 @@
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/7d9f237a-4b7e-40ac-8fc5-3aeeca1c1e31)
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/153e88a2-7627-45ad-a8d8-7b69f18e5467)
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/c97f0529-13b2-410f-9a45-041f7f0ac3e9)
+![image](https://github.com/RBing123/depth-estimation/assets/107789113/dc800b27-8e64-4777-967b-a17ab75df5c9)
+
 上圖從左到右分別為單張RGB影像、地面真值、模型估計的表面法向量圖
 
 # 實際成果
