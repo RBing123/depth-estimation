@@ -27,7 +27,6 @@
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/7d9f237a-4b7e-40ac-8fc5-3aeeca1c1e31)
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/153e88a2-7627-45ad-a8d8-7b69f18e5467)
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/c97f0529-13b2-410f-9a45-041f7f0ac3e9)
-![image](https://github.com/RBing123/depth-estimation/assets/107789113/dc800b27-8e64-4777-967b-a17ab75df5c9)
 
 上圖從左到右分別為單張RGB影像、地面真值、模型估計的表面法向量圖
 
