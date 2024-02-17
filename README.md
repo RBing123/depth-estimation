@@ -20,7 +20,7 @@
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/9eab39a0-e661-494e-bbde-757fe578c11f)
 
 
-遠---------------------------------------------------------------------------------------------->近
+Far---------------------------------------------------------------------------------------------->Near
 
 上圖從左到右分別為單張RGB影像、地面真值、模型估計的深度圖
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/0ffe3af7-7ed2-422b-8753-f898ee96ce69)
@@ -30,7 +30,7 @@
 
 上圖從左到右分別為單張RGB影像、地面真值、模型估計的表面法向量圖
 
-# 實際成果
+# Real Test
 https://drive.google.com/file/d/1BIzOxXL_kvY8E0uERxxWKg-qQUWaIa8_/view?usp=drive_link
 
 
