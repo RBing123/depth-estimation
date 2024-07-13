@@ -37,7 +37,7 @@ def accuracy_function(y_true, y_pred):
   return K.mean(K.equal(K.round(y_true), K.round(y_pred)))
 #midas=tf.keras.models.load_model("C:/Users/User/Downloads/depth_model.h5",custom_objects={'loss_function':loss_function, 'accuracy_function':accuracy_function})
 midas=tf.keras.models.load_model("C:/Users/User/Downloads/normal_model.h5")
-'''
+
 # Download the MiDaS
 midas = torch.hub.load('intel-isl/MiDaS', 'MiDaS_small')
 midas.to('cpu')
@@ -77,4 +77,3 @@ while cap.isOpened():
         cv2.destroyAllWindows()
 
 plt.show()
-'''
