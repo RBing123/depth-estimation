@@ -6,10 +6,7 @@ However, by mutually constraining these two preliminary results, we generate a s
 # Depth to Normal
 ![新增 Microsoft PowerPoint 簡報](https://github.com/RBing123/depth-estimation/assets/107789113/bace7707-d261-4413-bea9-622dab2b6d79)
 # Normal to depth
-原理為針對每一個像素給定每一個初始像素的法向量以及初始估計的深度，並且可以滿足切平
-面方程式，而我需要假設給定的初始深度圖是準確的並且假設這個像素的鄰近也都落在這個
-切平面上，可以透過兩個超參數來決定何謂鄰近的像素，然後將所有的像素與像素對應的深
-度，利用透視投影的公式反算深度，並且利用核迴歸將所有的像素聚合。
+The principle involves assigning each pixel an initial normal vector and an initial estimated depth, which can satisfy the plane equation. I need to assume that the given initial depth map is accurate and that the neighboring pixels also lie on this plane. Two hyperparameters can be used to define what constitutes neighboring pixels. Then, using the perspective projection formula, the depth is recalculated for all pixels and their corresponding depths, and all pixels are aggregated using kernel regression.
 
 # Architecture
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/5bd3f168-0868-42de-a5f8-c2cb67f9d38e)
@@ -23,13 +20,13 @@ However, by mutually constraining these two preliminary results, we generate a s
 
 Far---------------------------------------------------------------------------------------------->Near
 
-上圖從左到右分別為單張RGB影像、地面真值、模型估計的深度圖
+The above picture from left to right shows a single RGB image, ground truth, and model-estimated depth map.
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/0ffe3af7-7ed2-422b-8753-f898ee96ce69)
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/7d9f237a-4b7e-40ac-8fc5-3aeeca1c1e31)
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/153e88a2-7627-45ad-a8d8-7b69f18e5467)
 ![image](https://github.com/RBing123/depth-estimation/assets/107789113/c97f0529-13b2-410f-9a45-041f7f0ac3e9)
 
-上圖從左到右分別為單張RGB影像、地面真值、模型估計的表面法向量圖
+The above picture from left to right shows the surface normal vector map of a single RGB image, ground truth, and model estimation.
 
 # Real Test
 https://drive.google.com/file/d/1BIzOxXL_kvY8E0uERxxWKg-qQUWaIa8_/view?usp=drive_link
