@@ -98,14 +98,5 @@ data={
       }
 df=pd.DataFrame(data)
 df=df.sample(frac=1,random_state=42)
-'''
-for i in range(len(RGB_image)):
-    img=transform(RGB_image[i])
-    depth_img=cv2.imread(Depth_image[i], cv2.IMREAD_ANYCOLOR | cv2.IMREAD_ANYDEPTH)
-    depth_img=1/depth_img
-    depth_img=cv2.resize(depth_img, (640,192))
-    fig, ax=plt.subplots(figsize=(20,20))
-    ax.imshow(depth_img)
-    plt.imshow(depth_img, cmap='inferno')
-'''
+
 
