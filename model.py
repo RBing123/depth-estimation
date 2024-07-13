@@ -101,33 +101,6 @@ for dirs in dfilelist:
     d=dirs+'/'+sec_dirs
     Depth_image.append(d)
 
-'''
-path3='/content/vkitti_2.0.3_normal'
-normal_file=os.listdir(path3)
-nfilelist=[]
-for subfile in normal_file:
-  address=path3+'/'+subfile
-  for sub_subfile in os.listdir(address):
-    a=path3+'/'+subfile+'/'+sub_subfile+'/'+'frames'+'/'+'normal'
-    for last in os.listdir(a):
-      aa=a+'/'+last
-      nfilelist.append(aa)
-normal_image=[]
-for dirs in nfilelist:
-  ad=os.listdir(dirs)
-  ad.sort()
-  for sec_dirs in ad:
-    d=dirs+'/'+sec_dirs
-    normal_image.append(d)
-'''
-'''
-print(RGB_image[0])
-print(Depth_image[0])
-data={
-      "image":[x for x in RGB_image],
-      "depth":[x for x in Depth_image],
-      }
-'''
 print(RGB_image[0])
 print(Depth_image[0])
 data={
@@ -322,7 +295,7 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.regularizers import l2
 import tensorflow.keras.backend as K
 import tensorflow_addons as tfa
-'''
+
 def loss_function(y_true, y_pred):
 
   #Cosine distance loss
@@ -341,7 +314,7 @@ def loss_function(y_true, y_pred):
   w1, w3 = 1.0, 0.1
   #+ (w2 * K.mean(l_edges)) w2=1.0
   return (w1 * l_ssim) + (w3 * K.mean(l_depth))
-'''
+
 
 #optimizer
 opt = tfa.optimizers.AdamW(learning_rate=0.0001, weight_decay=1e-6,amsgrad=True)
